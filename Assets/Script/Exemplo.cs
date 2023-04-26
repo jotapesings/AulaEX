@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Calculos : MonoBehaviour
-{              
-    float _n1;
-    float _n2;
+public class Exemplo : MonoBehaviour
+{
+    int _number;
+    string _text;
+    bool _check;
+    float _fnumber;
     // Start is called before the first frame update
     void Start()
     {
-        _n1 = 1;
-        _n2 = 2;
-        _n1 = _n1/_n2;
+        Debug.Log(_number);
+        
     }
 
     // Update is called once per frame
