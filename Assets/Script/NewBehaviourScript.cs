@@ -2,16 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Exemplo : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
-    int _number;
-    string _text;
-    bool _check;
-    float _fnumber;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(_number);
         
     }
 
